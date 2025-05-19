@@ -1,15 +1,4 @@
-# Core Requirements
-streamlit==1.32.0
-pandas==2.1.4
-openpyxl==3.1.2  # For Excel support
-matplotlib==3.8.2  # For charts
-
-# Optional (Recommended)
-plotly==5.18.0  # Interactive plots
-numpy==1.26.0  # Numerical operations
-python-dotenv==1.0.0  # Environment variables
-xlrd==2.0.1  # Legacy Excel support (if needed)
-
-# Dev/Testing
-pytest==7.4.3
-black==23.11.0  # Code formatting
+streamlit>=1.32.0
+pandas>=2.0.0
+openpyxl>=3.0.0
+matplotlib>=3.7.0
